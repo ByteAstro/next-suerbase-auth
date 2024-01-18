@@ -50,7 +50,6 @@ export default function LoginPage() {
         setUser(null);
     }
 
-    console.log({ user });
 
     if (loading) {
         return <h1>Loading...</h1>
